@@ -1,3 +1,6 @@
+import Data.Foldable
+import Prelude hiding (foldr)
+
 data SimpExpr = Lit Int
               | Add SimpExpr SimpExpr
               | Mul SimpExpr SimpExpr
